@@ -1,0 +1,350 @@
+.pull-left {
+	float: right !important
+}
+
+.pull-right {
+	float: left !important
+}
+
+#notifications {
+	right: 110px;
+	left: 25px
+}
+
+.application-bar {
+	padding: 0 5px 0 0
+}
+
+.application-bar .environment.dropdown .custom-caret {
+	right: auto;
+	left: 1em
+}
+
+.application-bar .environment>a {
+	padding-left: 0;
+	padding-right: 1em
+}
+
+.application-bar .settings>a {
+	left: auto;
+	right: 5px
+}
+
+.application-bar .settings .dropdown-menu {
+	right: auto;
+	left: 2px
+}
+
+.application-bar .settings .dropdown-menu:after, .application-bar .settings .dropdown-menu:before
+	{
+	right: auto;
+	left: 7px
+}
+
+#main-menu>ul>li {
+	margin-right: -40px
+}
+
+#main-menu .flyout {
+	left: auto;
+	border-right: none;
+	border-left: 1px solid #cacaca;
+	text-align: right;
+	transition: right .35s ease-in-out
+}
+
+#main-menu .flyout.active {
+	left: auto;
+	right: 100px
+}
+
+#main-menu .tooltip {
+	left: auto !important;
+	right: 92px !important
+}
+
+#main-menu .tooltip.right {
+	display: none
+}
+
+#main-menu .tooltip.left {
+	margin-right: 2px
+}
+
+#main-menu .tooltip.left .tooltip-arrow {
+	border-bottom: 13px solid transparent;
+	border-left: 13px solid #768592;
+	border-top: 13px solid transparent;
+	margin-right: -7px;
+	margin-top: -13px
+}
+
+#main-menu .tooltip-inner {
+	padding-left: 8px
+}
+
+#dashboard-flyout {
+	left: auto;
+	right: -175px
+}
+
+#dashboard-flyout .map {
+	margin-right: auto
+}
+
+.dashboard .btn-actions, .dashboard .btn-filter, .dashboard .btn-sort {
+	text-align: right
+}
+
+.dashboard .btn-actions .custom-caret, .dashboard .btn-filter .custom-caret,
+	.dashboard .btn-sort .custom-caret {
+	right: auto;
+	left: 10px
+}
+
+.main-container main {
+	left: 0;
+	right: 100px
+}
+
+.layout.dashboard section.tasks-container {
+	right: 20px;
+	left: 0;
+	transition: left .35s ease-in-out
+}
+
+.layout.dashboard section.tasks-container.expanded {
+	left: 0;
+	right: 20px
+}
+
+.layout.dashboard aside.activities-container {
+	left: -230px;
+	right: auto;
+	border-left-style: none;
+	border-right: 1px solid #E5E5E5;
+	transition: left .35s ease-in-out
+}
+
+#recent-activity, .recent-activity {
+	border-right-style: none
+}
+
+.layout.dashboard aside.activities-container.expanded {
+	left: 0;
+	right: auto
+}
+
+.layout.dashboard aside.activities-container header {
+	text-align: left
+}
+
+.layout.dashboard aside.activities-container .expand-collapse-toggle {
+	left: auto;
+	right: 10px
+}
+
+.layout.dashboard aside.activities-container .expand-collapse-toggle .expand-label
+	{
+	margin-top: 4em
+}
+
+.layout.dashboard section .tasks {
+	padding-left: 20px
+}
+
+.btn-dashboards .glyphicon {
+	margin-right: 0;
+	margin-left: 5px
+}
+
+#launchpad-flyout {
+	right: -800px
+}
+
+#recent-activity {
+	text-align: left;
+	font-size: 12px !important
+}
+
+ul#favorite-pages {
+	padding-left: 0 !important;
+	padding-right: 15px !important
+}
+
+ul#favorite-pages .as-sortable-placeholder {
+	margin: 0 0 10px 10px
+}
+
+.launchpad header .pull-right {
+	padding-right: 0;
+	padding-left: 10px
+}
+
+.launchpad .favorite-pages {
+	border-right: none;
+	border-left: 1px solid #ddd
+}
+
+.launchpad .icon-add {
+	margin-right: 0;
+	margin-left: 5px
+}
+
+.launchpad .reference-links {
+	border-right: 1px solid #ddd
+}
+
+.favorite-page {
+	margin: 0 0 10px 10px
+}
+
+.favorite-page .drag-handle {
+	right: auto;
+	left: 5px
+}
+
+#search-flyout {
+	right: -34em
+}
+
+#search-flyout form.global-search {
+	padding-left: 0;
+	padding-right: 30px
+}
+
+#all-pages li .favorite, .favorite-page .favorite {
+	right: auto;
+	left: 5px
+}
+
+#spaces-menu li.space {
+	margin-right: -35px
+}
+
+#spaces-menu li.active.space .space-context-trigger {
+	background-position: 0 0
+}
+
+#spaces-menu li.active.space {
+	border-left: none;
+	border-right: 4px solid #6dafdd
+}
+
+#spaces-menu .space-more {
+	position: relative;
+	right: -30px
+}
+
+#spaces-menu .space-list-more-container {
+	margin-right: -36px
+}
+
+#spaces-menu .space-list-overflow {
+	right: 108px;
+	left: 0
+}
+
+#spaces-menu .space-list-overflow .space {
+	margin-right: 10px;
+	margin-bottom: 10px
+}
+
+#spaces-menu li.space .unpin .unpin-img {
+	right: auto;
+	left: -3px;
+	border-bottom-right-radius: 2px
+}
+
+#spaces-menu li.space .unpin .unpin-img img {
+	transform: rotate(270deg)
+}
+
+.space-context-trigger {
+	background: url(../images/menubar/icon-space-context-menu-rtl.png) 2px
+		4px no-repeat
+}
+
+.task-card .primary-content .task-priority img {
+	float: left;
+	margin-top: 2px;
+	display: inline-block
+}
+
+.table-form .table-left {
+	float: right !important
+}
+
+.chevron, .chevron-focus {
+	clear: right
+}
+
+.div-pagination {
+	margin-right: 20px;
+	float: right
+}
+
+.column-view, .slider-nv {
+	float: left
+}
+
+.slider-nv {
+	margin-left: 20px
+}
+
+.slideout-title {
+	padding-right: 100px
+}
+
+.slideout .content iframe {
+	padding-right: 100px;
+	width: 100%;
+	height: 100%
+}
+
+#dashboard-flyout .map {
+	margin-left: 0
+}
+
+.application-bar .agency, .application-bar .divider, .application-bar .product
+	{
+	float: right
+}
+
+/*--------- IFC Custom -----------*/
+
+/** Arabic Hotfix 
+* Hisham El Fangary 
+* 15/1/2017            */
+
+/*----- Main Menu -----*/
+ul#recent-activity {
+	padding-right: 0px;
+}
+
+ul#recent-activity li, ul#recent-activity li a {
+	text-align: right;
+}
+
+ul#favorite-pages li {
+	float: right;
+}
+
+.favorite-page {
+	margin: 0 10px 10px 0px;
+}
+
+ul#favorite-pages .as-sortable-placeholder {
+	margin: 0 10px 10px 0px;
+}
+
+#all-pages li {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.global-search .title-result-text {
+	display: block;
+}
+
+/*--------- IFC Custom -----------*/
